@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(itemName) {
   var price = Math.ceil(Math.random() * 100)
-  cart.push({[itemName]: price})
+  cart.push({[itemName] : price})
   console.log(`${itemName} has been added to your cart.`)
   return cart
 }
